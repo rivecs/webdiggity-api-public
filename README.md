@@ -1,34 +1,21 @@
-# webdiggity-api-public
+# WebDiggity assistant platform
 
-This is the public wrapper repo for the WebDiggity API / assistant platform backend.
+I built WebDiggity’s assistant platform for businesses that need more than a generic chat box. It supports embeddable assistants, business-specific knowledge and conversation handling, lead capture, and admin-side management flows.
 
-I built the real working platform in a separate repo. That version includes active feature work, local environment files, staging artifacts, deploy packaging, and internal product iteration. This wrapper is the cleaner public-facing version for review.
+## Technology
 
-## What I built
-
-- A multi-business assistant platform backend
-- Embeddable chat/widget delivery
-- Business-specific knowledge and conversation handling
-- Lead capture and admin-side management flows
-- The backend foundation behind the wider WebDiggity assistant and tool ecosystem
-
-## Stack
-
-- Next.js
-- React
+- Next.js and React
 - TypeScript
 - Supabase
 - Server-side API routes
 
-## What this wrapper is for
+## Build choices
 
-- Public GitHub visibility
-- Interview review
-- A safe, high-level explanation of the platform work
+The platform needs to support different business experiences without treating every business as if it has the same questions or context. I built the assistant around business-specific knowledge and conversation handling, with an embeddable experience and management flows around it.
 
-## What I left out on purpose
+This is the public overview repository for the platform work.
 
-- Environment files
-- Staging and deploy folders
-- Internal admin details
-- Product iteration noise that is useful during development but not in a public wrapper
+## Links
+
+- [WebDiggity](https://webdiggity.com)
+- [Portfolio project notes](https://portfolio.aerovisus.com/#webdiggity)
