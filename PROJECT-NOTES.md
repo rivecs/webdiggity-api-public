@@ -1,24 +1,14 @@
-# Project Notes
+# WebDiggity project notes
 
-## Why I made a public wrapper
+The current WebDiggity front door is shared with Aerovisus. It gives people and growing small businesses a route to websites and digital tools; Aerovisus is the route for operational systems work.
 
-The working platform repo is where I actually build, debug, iterate, and wire features together. It is useful internally, but it is noisier than I want for public review. I made this wrapper so I can explain the backend and platform work cleanly.
+The assistant-platform project is a separate piece of that work. It has an embeddable assistant, business-specific knowledge and conversation handling, lead capture, and admin flows. The stack recorded for it is Next.js, React, TypeScript, Supabase, and server-side API routes.
 
-## What I would point out in an interview
+## Why keep a public notes repository
 
-- I can build multi-tenant platform foundations, not just one-off sites
-- I think in terms of reusable systems and product surfaces
-- I can bridge frontend experience with backend and admin concerns
-- I am comfortable with the ugly middle ground between MVP and production hardening
+The working application repository contains the implementation and its environment-specific work. This repository is a short public explanation of the product and the technical decisions; it does not publish the application source, credentials, or business records.
 
-## What the deeper repo contains
+## Links
 
-- The active assistant platform code
-- Widget delivery logic
-- Admin flows
-- Supabase integration
-- Local environment and deployment staging work
-
-## Why it matters
-
-This project shows product range. It is not just a website backend. It is the foundation for a broader assistant and tools platform.
+- [WebDiggity](https://webdiggity.com)
+- [Portfolio notes](https://portfolio.aerovisus.com/#webdiggity)
