@@ -1,6 +1,6 @@
 # WebDiggity assistant platform
 
-I built WebDiggity’s assistant platform for businesses that need more than a generic chat box. It supports embeddable assistants, business-specific knowledge and conversation handling, lead capture, and admin-side management flows.
+WebDiggity is the websites-and-tools side of the work for people and growing small businesses. The assistant platform work behind it covers site-embedded assistants, business-specific knowledge, lead capture, and admin tools.
 
 ## Technology
 
@@ -9,13 +9,9 @@ I built WebDiggity’s assistant platform for businesses that need more than a g
 - Supabase
 - Server-side API routes
 
-## Build choices
-
-I designed the platform to support different business experiences without treating every business as if it has the same questions or context. The assistant is built around business-specific knowledge and conversation handling, with an embeddable experience and management flows around it.
-
-This is the public overview repository for the platform work.
+Each assistant gets the business context it needs, with an embedded visitor experience and management flows around it. The public project repository explains the platform; it does not contain the application source.
 
 ## Links
 
 - [WebDiggity](https://webdiggity.com)
-- [Portfolio project notes](https://portfolio.aerovisus.com/#webdiggity)
+- [Portfolio notes](https://portfolio.aerovisus.com/#webdiggity)
