@@ -11,7 +11,7 @@ I built WebDiggity’s assistant platform for businesses that need more than a g
 
 ## Build choices
 
-The platform needs to support different business experiences without treating every business as if it has the same questions or context. I built the assistant around business-specific knowledge and conversation handling, with an embeddable experience and management flows around it.
+I designed the platform to support different business experiences without treating every business as if it has the same questions or context. The assistant is built around business-specific knowledge and conversation handling, with an embeddable experience and management flows around it.
 
 This is the public overview repository for the platform work.
 
